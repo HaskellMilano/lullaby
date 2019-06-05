@@ -1,0 +1,62 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.31.1.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: 7b7881aa5f6148e300bb96426673a4ac0cfabd85acd062580670bb683f282652
+
+name:           lullaby
+version:        0.1.0.0
+description:    Please see the README on GitHub at <https://github.com/githubuser/lullaby#readme>
+homepage:       https://github.com/githubuser/lullaby#readme
+bug-reports:    https://github.com/githubuser/lullaby/issues
+author:         Haskell Milano
+maintainer:     haskell.milano@gmail.com
+copyright:      2019 Haskell Milano
+license:        BSD3
+license-file:   LICENSE
+build-type:     Simple
+extra-source-files:
+    README.md
+    ChangeLog.md
+
+source-repository head
+  type: git
+  location: https://github.com/haskellmilano/lullaby
+
+library
+  exposed-modules:
+      Lib
+  other-modules:
+      Paths_lullaby
+  hs-source-dirs:
+      src
+  build-depends:
+      base >=4.7 && <5
+  default-language: Haskell2010
+
+executable lullaby-exe
+  main-is: Main.hs
+  other-modules:
+      Paths_lullaby
+  hs-source-dirs:
+      app
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      base >=4.7 && <5
+    , lullaby
+  default-language: Haskell2010
+
+test-suite lullaby-test
+  type: exitcode-stdio-1.0
+  main-is: Spec.hs
+  other-modules:
+      Paths_lullaby
+  hs-source-dirs:
+      test
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      base >=4.7 && <5
+    , lullaby
+  default-language: Haskell2010
