@@ -1,0 +1,9 @@
+sudo: true
+language: haskell
+
+cache:
+  directories:
+    - $HOME/.stack
+
+notifications:
+  email: false
