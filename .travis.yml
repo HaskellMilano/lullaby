@@ -5,5 +5,13 @@ cache:
   directories:
     - $HOME/.stack
 
+ghc:
+  - "8.0.2"
+  - "8.4.4"
+  - "8.6.5"
+
+script:
+  - stack --no-terminal --skip-ghc-check test
+
 notifications:
   email: false
