@@ -2,7 +2,7 @@ name:                lullaby
 version:             0.1.0.0
 github:              "haskellmilano/lullaby"
 license:             BSD3
-author:              "Luca Zuliani, Giovanni Ornaghi"
+author:              "Luca Zulian, Giovanni Ornaghi"
 maintainer:          "haskell.milano@gmail.com"
 copyright:           "2019 Haskell Milano"
 
