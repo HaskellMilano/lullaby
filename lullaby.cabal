@@ -4,14 +4,14 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 7b7881aa5f6148e300bb96426673a4ac0cfabd85acd062580670bb683f282652
+-- hash: b72d20443dcb5930814ff4c663cc1b6e3e32677d9c971b54f66b5b6c9684989e
 
 name:           lullaby
 version:        0.1.0.0
-description:    Please see the README on GitHub at <https://github.com/githubuser/lullaby#readme>
-homepage:       https://github.com/githubuser/lullaby#readme
-bug-reports:    https://github.com/githubuser/lullaby/issues
-author:         Haskell Milano
+description:    Please see the README on GitHub at <https://github.com/HaskellMilano/lullaby#readme>
+homepage:       https://github.com/haskellmilano/lullaby#readme
+bug-reports:    https://github.com/haskellmilano/lullaby/issues
+author:         Luca Zuliani, Giovanni Ornaghi
 maintainer:     haskell.milano@gmail.com
 copyright:      2019 Haskell Milano
 license:        BSD3

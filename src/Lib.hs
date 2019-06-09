@@ -1,6 +1,10 @@
 module Lib
-    ( someFunc
+    ( Number
+    , (*)
+    , String
+    , IO
+    , pure
+    , foldr
     ) where
 
-someFunc :: IO ()
-someFunc = putStrLn "someFunc"
+type Number = Double
